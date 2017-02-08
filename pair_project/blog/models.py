@@ -8,4 +8,3 @@ class Post(models.Model):
     content = models.TextField()
     published_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
 
-# Create your models here.
